@@ -7,7 +7,7 @@ title: Jie Pang
 .hero {
   position: relative;
   min-height: 92vh;
-  background-image: url('assets/images/hero-structural-lacquer.png');
+  background-image: url('assets/hero-structural-lacquer.png');
   background-size: cover;
   background-position: center;
   display: flex;
