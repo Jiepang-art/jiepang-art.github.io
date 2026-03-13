@@ -1,6 +1,6 @@
 ---
 layout: default
-title：Nabi Jie Pang
+title：Nabi
 ---
 
 # Jie Pang
