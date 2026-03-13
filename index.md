@@ -7,7 +7,7 @@ title: Pang Jie
 .hero {
   width: 100%;
   height: 70vh;
-  background-image: url('/assets/images/mirror-lake.jpg');
+  background-image: url('assets/images/mirror-lake.jpg');
   background-size: cover;
   background-position: center;
 }
