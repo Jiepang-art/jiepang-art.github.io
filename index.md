@@ -1,36 +1,30 @@
 ---
 layout: default
-title: Jie Pang
+title：Nabi Jie Pang
 ---
 
-# Jie Pang  
-### Lacquer Artist · Material Thinker · Civilization Narrator  
+# Jie Pang
+### Lacquer Artist · Material Thinker · Civilization Narrator
 
-Lacquer is not a material.  
-It is time solidified into form.
+Lacquer is not merely a material.  
+It is time, memory, and transformation made visible.
 
-Through lacquer, I explore how civilizations preserve memory, construct surfaces, and imagine permanence.
-
----
-
-## Current Research
-
-Lacquer as structural ontology  
-Material civilization and deep-time aesthetics  
-Digital lacquer and algorithmic image formation  
+My work explores lacquer as a civilizational medium —  
+a structure through which memory is preserved, surfaces are constructed,  
+and permanence is imagined across time.
 
 ---
 
-## Selected Directions
+## Current Focus
 
-Lacquer Painting  
-Material Philosophy  
-Digital Cinema  
-Civilization Narrative  
+- Lacquer and material ontology
+- Shu lacquer and civilizational memory
+- Structural Digitalism and digital image formation
+- Cinema, surface, and deep-time narrative
 
 ---
 
-## Sections
+## Selected Sections
 
 - [Works](works)
 - [Writing](writing)
