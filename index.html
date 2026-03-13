@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pang Jie</title>
+  <title>JIEPANG</title>
   <style>
     body {
       margin: 0;
@@ -18,7 +18,7 @@
     }
 
     .nav {
-      max-width: 1200px;
+      max-width: 1280px;
       margin: 0 auto;
       padding: 22px 32px;
       display: flex;
@@ -27,9 +27,12 @@
       box-sizing: border-box;
     }
 
-    .brand {
+    .brand a {
+      color: #111;
+      text-decoration: none;
       font-size: 28px;
-      font-weight: 400;
+      font-weight: 600;
+      letter-spacing: 2px;
     }
 
     .menu a {
@@ -40,35 +43,51 @@
     }
 
     .hero {
-      max-width: 1200px;
-      margin: 36px auto 60px auto;
+      max-width: 1280px;
+      margin: 36px auto 56px auto;
       padding: 0 32px;
       box-sizing: border-box;
+      position: relative;
+      height: 260px;
+      overflow: hidden;
     }
 
     .hero img {
       width: 100%;
-      height: auto;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 58%;
       display: block;
     }
 
+    .hero-title {
+      position: absolute;
+      left: 54px;
+      bottom: 24px;
+      color: white;
+      font-size: 56px;
+      font-weight: 300;
+      letter-spacing: 4px;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.35);
+    }
+
     .intro {
-      max-width: 1200px;
-      margin: 0 auto 100px auto;
+      max-width: 1280px;
+      margin: 0 auto 110px auto;
       padding: 0 32px;
       box-sizing: border-box;
     }
 
     .intro h1 {
       font-size: 42px;
-      font-weight: 400;
+      font-weight: 500;
       margin: 0 0 24px 0;
     }
 
     .intro p {
-      max-width: 760px;
+      max-width: 840px;
       font-size: 22px;
-      line-height: 1.8;
+      line-height: 1.9;
       margin: 0;
     }
 
@@ -82,12 +101,22 @@
         margin: 0 12px;
       }
 
-      .intro h1 {
+      .hero {
+        height: 180px;
+      }
+
+      .hero-title {
+        left: 40px;
+        bottom: 18px;
         font-size: 34px;
       }
 
+      .intro h1 {
+        font-size: 32px;
+      }
+
       .intro p {
-        font-size: 19px;
+        font-size: 18px;
       }
     }
   </style>
@@ -95,21 +124,22 @@
 <body>
   <header>
     <div class="nav">
-      <div class="brand">Pang Jie</div>
+      <div class="brand"><a href="/">JIEPANG</a></div>
       <div class="menu">
-        <a href="about.html">About</a>
-        <a href="works.html">Works</a>
-        <a href="writing.html">Writing</a>
+        <a href="/about.html">About</a>
+        <a href="/works.html">Works</a>
+        <a href="/writing.html">Writing</a>
       </div>
     </div>
   </header>
 
   <section class="hero">
-    <img src="https://jiepang-art.github.io/assets/mirror-lake.jpg" alt="Mirror Lake lacquer image" />
+    <img src="/assets/mirror-lake.jpg" alt="Mirror Lake lacquer image" />
+    <div class="hero-title">JIEPANG</div>
   </section>
 
   <section class="intro">
-    <h1>Pang Jie</h1>
+    <h1>Material Statement</h1>
     <p>
       Lacquer is not merely a material. It is time, memory, and transformation made visible.
       My work approaches lacquer as a civilizational medium: a structure through which surfaces
