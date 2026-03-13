@@ -95,10 +95,7 @@ title: Jie Pang
     font-size: 2.5rem;
   }
 
-  .statement-grid {
-    grid-template-columns: 1fr;
-  }
-
+  .statement-grid,
   .preview-grid {
     grid-template-columns: 1fr;
   }
@@ -120,17 +117,19 @@ title: Jie Pang
 
 <div class="section statement-grid">
   <div class="statement-text">
-    <h2>Material Philosophy</h2>
+    <h2>Material Statement</h2>
     <p>
-      Lacquer is not merely a material, but a temporal structure — a surface where time condenses into form.
-      Through layered processes of accumulation, erosion, and illumination, lacquer becomes a medium for understanding how civilizations construct durability, memory, and metaphysical presence.
+      Lacquer is not merely a material. It is time, memory, and transformation made visible.
+      My work approaches lacquer as a civilizational medium: a structure through which surfaces are
+      constructed, memory is preserved, and permanence is imagined.
     </p>
     <p>
-      Pang’s work connects ancient East Asian material systems with contemporary digital image structures, proposing a new ontology of surface and structural perception.
+      Pang’s work connects ancient East Asian material systems with contemporary digital image structures,
+      proposing a new ontology of surface and structural perception.
     </p>
   </div>
   <div class="statement-image">
-    <img src="assets/images/lacquer-structure.png">
+    <img src="assets/images/mirror-lake.png" alt="Mirror Lake lacquer image">
   </div>
 </div>
 
@@ -138,11 +137,11 @@ title: Jie Pang
   <h2>Selected Works</h2>
   <div class="preview-grid">
     <div class="preview-card">
-      <img src="assets/images/mirror-lake.png">
+      <img src="assets/images/lacquer-structure.png" alt="Lacquer structure work">
       <h3>Mirror Lake Series</h3>
     </div>
     <div class="preview-card">
-      <img src="assets/images/pier-drawing.png">
+      <img src="assets/images/pier-drawing.png" alt="Pier drawing">
       <h3>Waterfront Studies</h3>
     </div>
   </div>
