@@ -2,9 +2,6 @@
 layout: default
 title: Jie Pang
 ---
-
-# Jie Pang
-
 Lacquer Artist · Material Thinker · Civilization Narrator  
 
 Lacquer is not a material.  
