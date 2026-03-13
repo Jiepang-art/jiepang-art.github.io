@@ -6,126 +6,99 @@ title: Jie Pang
 <style>
 .hero {
   position: relative;
-  min-height: 88vh;
-  background-image: url('/assets/images/hero-poster.png');
+  min-height: 92vh;
+  background-image: url('assets/images/hero-structural-lacquer.png');
   background-size: cover;
   background-position: center;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 4rem 3rem;
+  align-items: flex-end;
+  padding: 5rem 3rem;
   color: white;
 }
+
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
   background: rgba(0,0,0,0.35);
 }
+
 .hero-content {
   position: relative;
   z-index: 1;
   max-width: 760px;
 }
+
 .hero-title {
-  font-size: 3.4rem;
-  line-height: 1.02;
+  font-size: 3.8rem;
+  line-height: 1.05;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: -0.03em;
-  margin: 0 0 1.5rem 0;
+  margin-bottom: 1.5rem;
 }
-.hero-subtitle {
-  font-size: 1.2rem;
-  line-height: 1.6;
+
+.hero-text {
+  font-size: 1.25rem;
+  line-height: 1.7;
   max-width: 620px;
 }
 
-.section-block {
-  margin: 4rem 0 5rem 0;
+.section {
+  margin: 5rem 0;
 }
 
 .statement-grid {
   display: grid;
   grid-template-columns: 1.1fr 1fr;
-  gap: 2rem;
+  gap: 3rem;
   align-items: center;
 }
 
-.statement-text h2,
-.preview h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+.statement-text h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .statement-text p {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   line-height: 1.9;
 }
 
-.statement-image img,
-.preview-grid img {
+.statement-image img {
   width: 100%;
   display: block;
-  border-radius: 0;
-}
-
-.band-image {
-  position: relative;
-  margin: 4rem 0;
-  min-height: 340px;
-  background-image: url('/assets/images/lacquer-structure.png');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-}
-.band-image::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.30);
-}
-.band-text {
-  position: relative;
-  z-index: 1;
-  color: white;
-  padding: 2.5rem;
-  max-width: 780px;
-}
-.band-text h2 {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
-}
-.band-text p {
-  font-size: 1.1rem;
-  line-height: 1.8;
 }
 
 .preview-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
-}
-.preview-card p {
-  margin-top: 0.7rem;
-  font-size: 0.98rem;
-  line-height: 1.7;
+  gap: 2rem;
 }
 
-.section-links ul {
-  margin-left: 1.2rem;
+.preview-card img {
+  width: 100%;
+  display: block;
+}
+
+.preview-card h3 {
+  margin-top: 0.8rem;
 }
 
 @media (max-width: 800px) {
   .hero {
-    min-height: 72vh;
-    padding: 2rem 1.2rem;
+    min-height: 75vh;
+    padding: 3rem 1.5rem;
   }
+
   .hero-title {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
-  .statement-grid,
+
+  .statement-grid {
+    grid-template-columns: 1fr;
+  }
+
   .preview-grid {
     grid-template-columns: 1fr;
   }
@@ -135,72 +108,42 @@ title: Jie Pang
 <div class="hero">
   <div class="hero-content">
     <div class="hero-title">
-      Lacquer Is Appearance<br>
-      Structure Is Essence
+      Lacquer is Appearance<br>
+      Structure is Essence
     </div>
-    <div class="hero-subtitle">
+    <div class="hero-text">
       Jie Pang is a lacquer artist, material thinker, and civilization narrator.
-      Through lacquer, painting, writing, and digital image-making, he explores
-      surface, structure, time, and civilizational memory.
+      Through lacquer, painting, writing, and digital image-making, he explores surface, structure, time, and civilizational memory.
     </div>
   </div>
 </div>
 
-<div class="section-block statement-grid">
+<div class="section statement-grid">
   <div class="statement-text">
-    <h2>Material Statement</h2>
+    <h2>Material Philosophy</h2>
     <p>
-      Lacquer is not merely a material. It is time, memory, and transformation
-      made visible. My work approaches lacquer as a civilizational medium: a
-      structure through which surfaces are constructed, memory is preserved, and
-      permanence is imagined.
+      Lacquer is not merely a material, but a temporal structure — a surface where time condenses into form.
+      Through layered processes of accumulation, erosion, and illumination, lacquer becomes a medium for understanding how civilizations construct durability, memory, and metaphysical presence.
     </p>
     <p>
-      From Shu lacquer traditions to digital image formation, I investigate how
-      layered structure becomes ontology — how appearance is never superficial,
-      but the visible face of deep material logic.
+      Pang’s work connects ancient East Asian material systems with contemporary digital image structures, proposing a new ontology of surface and structural perception.
     </p>
   </div>
   <div class="statement-image">
-    <img src="/assets/images/mirror-lake.png" alt="Mirror Lake lacquer image">
+    <img src="assets/images/lacquer-structure.png">
   </div>
 </div>
 
-<div class="band-image">
-  <div class="band-text">
-    <h2>Current Research</h2>
-    <p>
-      Lacquer as structural ontology · Shu lacquer and civilizational memory ·
-      Structural Digitalism · Cinema, surface, and deep-time narrative
-    </p>
-  </div>
-</div>
-
-<div class="section-block preview">
-  <h2>Selected Visual Directions</h2>
+<div class="section">
+  <h2>Selected Works</h2>
   <div class="preview-grid">
     <div class="preview-card">
-      <img src="/assets/images/lacquer-structure.png" alt="Lacquer structure work">
-      <p>
-        Digital lacquer structures: fractured planes, sedimented light, and the
-        logic of appearance as constructed surface.
-      </p>
+      <img src="assets/images/mirror-lake.png">
+      <h3>Mirror Lake Series</h3>
     </div>
     <div class="preview-card">
-      <img src="/assets/images/pier-drawing.png" alt="Pier drawing">
-      <p>
-        Structural drawing and spatial framework: the skeletal logic beneath
-        visible form, where line and support become spatial philosophy.
-      </p>
+      <img src="assets/images/pier-drawing.png">
+      <h3>Waterfront Studies</h3>
     </div>
   </div>
-</div>
-
-<div class="section-block section-links">
-  <h2>Sections</h2>
-  <ul>
-    <li><a href="/works">Works</a></li>
-    <li><a href="/writing">Writing</a></li>
-    <li><a href="/about">About</a></li>
-  </ul>
 </div>
