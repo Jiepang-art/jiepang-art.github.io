@@ -1,0 +1,19 @@
+.page {
+max-width: 1100px;
+margin: 120px auto;
+padding: 0 40px;
+}
+
+.project {
+margin-bottom: 60px;
+}
+
+.project h2 {
+font-size: 28px;
+margin-bottom: 10px;
+}
+
+.project p {
+color: #555;
+line-height: 1.7;
+}
